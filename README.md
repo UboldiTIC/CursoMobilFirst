@@ -30,3 +30,13 @@ Iconos: en SVG si no son imágenes muy grandes ya que permiten transparecias y n
 Buena práctica: No más de dos tipos de fuentes, sino se debe hablar con los diseñadores para que seleccionen y acomoden el diseño.
 
 Las fuentes nos las puede pasar el equipo de diseño o las podemos ver en Figma. Una vez que sabemos cuales son las fuentes las buscamos en google fonts.
+
+### Estilos iniciales y variables
+
+Convención de orden para los estilos:
+
+1. Posicionamiento
+2. Modelo caja (Box model)
+3. Tipografía
+4. Visuales
+5. Otros
