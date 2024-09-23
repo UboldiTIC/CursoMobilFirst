@@ -143,6 +143,21 @@ main {
     color: #757575;
 }
 
+/* Slider tables */
+
+.main-tables-container {
+    display: flex;
+    gap: 10px;
+    width: 75%;
+    height: 380px;
+    margin: 0 auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    scroll-snap-align: center;
+    scroll-behavior: smooth;
+}
+
 /* Main: Currency Table */
 
 .main-currency-table {
@@ -478,10 +493,13 @@ main {
 .plans-container--slider {
     display: flex;
     gap: 10px;
+    width: 80%;
     height: 316px;
+    margin: 0 auto;
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    scroll-behavior: smooth;
 }
 
 /* Tarjetas */
