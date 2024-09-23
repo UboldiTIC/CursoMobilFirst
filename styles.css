@@ -146,7 +146,7 @@ main {
 /* Main: Currency Table */
 
 .main-currency-table {
-    width: 70%;
+    width: 150px;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
@@ -160,9 +160,8 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--bitcoin-orange);
-    /* text-align: left;
-    padding-left: 10px;
-     */
+    text-align: left;
+    margin-left: 8px;
 }
 .currency-table--container {
     width: 90%;
@@ -181,6 +180,8 @@ main {
     line-height: 1.9rem;
     color: var(--grey);
     background-color: var(--just-white);
+    text-align: left;
+    padding-left: 15px;
     /* text-align: left;
     padding-left: 10px; */
 }
@@ -241,7 +242,7 @@ main {
 /* Main: Commissions Table */
 
 .main-commissions-table {
-    width: 70%;
+    width: 150px;
     min-width: 235px;
     max-width: 500px;
     height: 360px;
@@ -255,9 +256,8 @@ main {
     font-weight: bold;
     line-height: 2.3rem;
     color: var(--secundary-blue);
-    /* text-align: left;
-    padding-left: 10px;
-     */
+    text-align: left;
+    margin-left: 8px;
 }
 .commissions-table--container {
     width: 90%;
@@ -276,8 +276,8 @@ main {
     line-height: 1.9rem;
     color: var(--grey);
     background-color: var(--just-white);
-    /* text-align: left;
-    padding-left: 10px; */
+    text-align: left;
+    padding-left: 15px;
 }
 .commissions-table--container .table__top-left {
     border-radius: 15px 0 0 0;
